@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/Test.sln",
+                "${workspaceFolder}/BorradoCascada.sln",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary;ForceNoAlign"
             ],
@@ -19,7 +19,7 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/Test.sln",
+                "${workspaceFolder}/BorradoCascada.sln",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary;ForceNoAlign"
             ],
@@ -33,7 +33,7 @@
                 "watch",
                 "run",
                 "--project",
-                "${workspaceFolder}/Test.sln"
+                "${workspaceFolder}/BorradoCascada.sln"
             ],
             "problemMatcher": "$msCompile"
         }

@@ -55,8 +55,6 @@ using (var context = new DatosContext())
             context.SaveChanges();
         }
 
-        Console.ReadKey();
-
     } while(IDEliminar != 0);
 
 }
